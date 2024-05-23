@@ -49,7 +49,12 @@ docker exec -it nginx /bin/bash
 apt-get update
 apt-get install -y nano
 ```
-
+Далее открываем файл index.html
+```
+nano /usr/share/nginx/html/index.html
+```
+В нём меняем заголовок и, по желанию описание
+![image](https://github.com/danakahara19/DOCKER/assets/148867574/c6e67777-66b4-4368-b34a-ffc3693e1d8a)
 
 
 
