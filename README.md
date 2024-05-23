@@ -39,3 +39,4 @@ docker pull nginx
 docker run --rm -d --anme nginx -v /data/app:/var/www/html -p 0.0.0.0:80:80 nginx
 ```
 заходим на свой айпишник и проверяем 
+### Задание 3
