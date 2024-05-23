@@ -1,28 +1,28 @@
 # DOCKER
-### Задание 1
+## Задание 1
 Установка Docker  
-Обновила список пакетов  
+Обновил список пакетов  
 ```
 apt-get update  
 ```
-Установила пакет  
+Установил пакет  
 ```
 apt-get install docker-engine  
 ```
-Добавила утилиту в автозагрузку  
+Добавил утилиту в автозагрузку  
 ```
 systemctl enable --now docker  
 ```
-Установила контейнер hello-world  
+Установил контейнер hello-world  
 ```
 docker run hello-world  
 ```
-Удалила контейнер hello-world  
+Удалил контейнер hello-world  
 ```
 docker image rm -f hello-world  
 ```
-### Задание 2
-Просмотр нашего Docker
+## Задание 2
+Просмотр Docker
 ```
 docker images
 ```
@@ -39,7 +39,7 @@ docker pull nginx
 docker run --rm -d --anme nginx -v /data/app:/var/www/html -p 0.0.0.0:80:80 nginx
 ```
 заходим на свой айпишник и проверяем 
-### Задание 3
+## Задание 3
 Запускаем интерактивную оболочку в контейнере Docker
 ```
 docker exec -it nginx /bin/bash
@@ -55,7 +55,8 @@ nano /usr/share/nginx/html/index.html
 ```
 В нём меняем заголовок и, по желанию описание
 ![image](https://github.com/danakahara19/DOCKER/assets/148867574/c6e67777-66b4-4368-b34a-ffc3693e1d8a)
-
+## Задание 4
+Создать образ для приложения работающего на фреймворке FastApi
 
 
 
