@@ -40,3 +40,22 @@ docker run --rm -d --anme nginx -v /data/app:/var/www/html -p 0.0.0.0:80:80 ngin
 ```
 заходим на свой айпишник и проверяем 
 ### Задание 3
+Запускаем интерактивную оболочку в контейнере Docker
+```
+docker exec -it nginx /bin/bash
+```
+Дальше нам нужен нано поэтосу скачиваем его
+```
+apt-get update
+apt-get install -y nano
+```
+
+
+
+
+
+
+
+
+
+
